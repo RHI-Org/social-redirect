@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <title>Redirecting…</title>
+    <script>
+      const destination = new URL('https://creativeconversion.one/');
+      destination.pathname = window.location.pathname;
+      destination.search = window.location.search;
+      destination.hash = window.location.hash;
+      window.location.replace(destination.toString());
+    </script>
+  </head>
+  <body><p>Redirecting…</p></body>
+</html>
